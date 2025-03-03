@@ -4,7 +4,7 @@
 }
 
 .navbartop {
-    background-color: rgb(44, 118, 255);
+    background-color: rgb(24, 63, 255);
     display: flex;
     flex-direction: row;
 }
@@ -12,13 +12,13 @@
 .navbarbot {
     padding: 0px;
     align-items: center;
-    background-color: rgb(24, 63, 255);
+    background-color: rgb(247, 86, 86);
     display: flex;
     flex-direction: row;
 }
 
 .but1 {
-    padding-left: 30px;
+    margin-left: 30px;
     padding: 0px;
 }
 
@@ -27,8 +27,8 @@
 }
 
 .butspace {
-    padding-top: 0px;
-    padding-bottom: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
     padding-left: 5px;
     padding-right: 5px;
     font-size: 50px;
@@ -45,4 +45,92 @@
     width: auto;
     margin-top: 45px;
     margin-left: 1250px;
+}
+
+.slides {
+    background-color: rgb(0, 27, 78);
+}
+
+* {box-sizing:border-box}
+
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+
+.mySlides {
+  display: none;
+}
+
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+.text {
+  color: #000000;
+  font-size: 20px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+.numbertext {
+  color: #000000;
+  font-size: 30px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
 }
