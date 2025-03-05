@@ -185,3 +185,31 @@
   from {opacity: .4}
   to {opacity: 1}
 }
+
+.idk {
+  background-color: blue;
+  align-items: center;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+}
+
+.thing1, .thing2, .thing3, .thing4 {
+  margin: 10px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.thingimg {
+  height: 200px;
+  width: 200px;
+}
+
+.thingbut {
+  color: white;
+  font-size: 30px;
+  height: auto;
+  width: auto;
+  background-color: red;
+}
