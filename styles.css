@@ -190,6 +190,23 @@
   to {opacity: 1}
 }
 
+.intro {
+  align-items: center;
+  border-radius: 25px;
+  max-width: 1000px;
+  margin-left: 440px;
+  display: flex;
+  flex-direction: row;
+  background: #3f52fb;
+}
+
+.introimg {
+  margin: 10px;
+  height: 300px;
+  width: 300px;
+  object-fit: cover;
+}
+
 .idk {
   border-radius: 25px;
   margin: 10px;
