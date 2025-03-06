@@ -4,7 +4,7 @@
 }
 
 .navbartop {
-    background: linear-gradient(90deg, rgba(5,0,70,1) 0%, rgba(3,34,182,1) 100%);
+    background: #3f52fb;
     display: flex;
     flex-direction: row;
 }
@@ -27,20 +27,22 @@
     color: white;
     padding: 0px;
     align-items: center;
-    background: radial-gradient(circle, rgba(255,0,0,1) 0%, rgba(125,0,0,1) 100%);
+    background: radial-gradient(circle, rgba(251,63,63,1) 0%, rgba(252,0,0,1) 100%);
     display: flex;
     flex-direction: row;
 }
 
 .but1 {
+    font-size: 30px;
     margin-left: 30px;
     padding: 0px;
     color: white;
 }
 
 .but {
-    padding: 0px;
-    color: white;
+  font-size: 30px;
+  padding: 0px;
+  color: white;
 }
 
 .butspace {
@@ -68,7 +70,7 @@
 .stars {
   text-align: center;
   align-items: center;
-  background-color: rgba(0,0,36,1);
+  background-color: navy;
   display: flex;
   flex-direction: row;
   padding-left: 800px;
@@ -82,12 +84,13 @@
 
 .slides {
   padding-top: 25px;
-  background: linear-gradient(180deg, rgba(0,0,36,1) 0%, rgba(9,9,121,1) 50%, rgba(5,0,136,1) 100%);
+  background: navy;
 }
 
 * {box-sizing:border-box}
 
 .slideshow-container {
+  border-radius: 10px;
   border: 5px solid rgb(247, 86, 86);
   max-width: 1000px;
   position: relative;
@@ -96,6 +99,7 @@
 
 
 .mySlides {
+  border-radius: 25px;
   display: none;
 }
 
@@ -187,7 +191,13 @@
 }
 
 .idk {
-  background-color: blue;
+  border-radius: 25px;
+  margin: 10px;
+  margin-top: 20px;
+  margin-left: 440px;
+  max-width: 1000px;
+  position: relative;
+  background-color: #3f52fb;
   align-items: center;
   text-align: center;
   display: flex;
@@ -201,12 +211,23 @@
   flex-direction: column;
 }
 
-.thingimg {
+.thingimg1 {
+  margin: 5px;
+  margin-left: 40px;
   height: 200px;
   width: 200px;
+  object-fit: cover;
 }
 
-.thingbut {
+.thingimg {
+  margin: 5px;
+  height: 200px;
+  width: 200px;
+  object-fit: cover;
+}
+
+.thingbut1, .thingbut2, .thingbut3, .thingbut4 {
+  margin: 5px;
   color: white;
   font-size: 30px;
   height: auto;
