@@ -1,0 +1,103 @@
+.body {
+    margin: 0;
+    padding: 0;
+    background-color: navy;
+}
+
+.navbartop {
+    background: #3f52fb;
+    display: flex;
+    flex-direction: row;
+}
+
+.name {
+  color: white;
+  margin-left: 20px;
+}
+
+.ros {
+  font-size: 50px;
+  margin-bottom: 5px;
+}
+
+.site {
+  font-size: 25px;
+}
+
+.navbarbot {
+    color: white;
+    padding: 0px;
+    align-items: center;
+    background: radial-gradient(circle, rgba(251,63,63,1) 0%, rgba(252,0,0,1) 100%);
+    display: flex;
+    flex-direction: row;
+}
+
+.but1 {
+    font-size: 30px;
+    margin-left: 30px;
+    padding: 0px;
+    color: white;
+}
+
+.but {
+  font-size: 30px;
+  padding: 0px;
+  color: white;
+}
+
+.butspace {
+    margin-top: 0px;
+    margin-bottom: 10px;
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 50px;
+}
+
+.logo {
+    margin: 20px;
+    height: 150px;
+    width: auto;
+}
+
+.prof {
+    height: 100px;
+    width: auto;
+    margin-top: 45px;
+    margin-left: 1150px;
+}
+
+.stars {
+    text-align: center;
+    align-items: center;
+    background-color: navy;
+    display: flex;
+    flex-direction: row;
+    padding-left: 800px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
+  
+  .starimg {
+    height: 50px;
+    width: auto;
+  }
+
+.startingtxt {
+    padding: 0;
+    margin: 0;
+    background-color: navy;
+}
+  
+.starttxt {
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    margin-left: 440px;
+    max-width: 1000px;
+    background-color: white;
+}
