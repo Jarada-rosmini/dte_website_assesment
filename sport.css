@@ -101,3 +101,21 @@
     max-width: 1000px;
     background-color: white;
 }
+
+.sports1, .sports2 {
+  align-items: center;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+}
+
+.bitimg {
+  height: 200px;
+  width: 100px;
+  object-fit: cover;
+}
+
+.bit {
+  margin: 10px;
+  background-color: #3f52fb;
+}
