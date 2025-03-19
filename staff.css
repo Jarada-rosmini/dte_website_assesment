@@ -179,3 +179,17 @@
   color: #3f52fb;
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.geoimg {
+  font-family: Arial, Helvetica, sans-serif;
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+}
+
+.geoimgs {
+  margin-left: 20px;
+  margin-right: 20px;
+  border-radius: 255px;
+  height: 400px;
+}
