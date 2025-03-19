@@ -193,3 +193,21 @@
   border-radius: 255px;
   height: 400px;
 }
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  background-color: #3f52fb;
+}
+
+.footinfo, .footcred {
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
+
+.footimg {
+  margin: 10px;
+}
