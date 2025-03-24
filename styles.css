@@ -318,6 +318,7 @@
   flex-direction: row;
   background-color: #F8F8F8;
   max-width: 1500px;
+  margin-bottom: 0px;
 }
 
 .kamartxt {
@@ -352,6 +353,14 @@
   color: white;
 }
 
+.dne {
+  background-color: white;
+}
+
+.dn {
+  background-color: #F8F8F8;
+}
+
 .footer {
   display: flex;
   flex-direction: row;
@@ -376,4 +385,8 @@
 
 .footpar {
   margin-right: 15px;
+}
+
+.footbut {
+  color: white;
 }

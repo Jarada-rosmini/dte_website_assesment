@@ -200,7 +200,7 @@
   justify-content: center;
   margin: 0;
   padding: 0;
-  background-color: #3f52fb;
+  background-color: navy;
 }
 
 .footinfo, .footcred, .footmap, .footpar {
@@ -218,4 +218,8 @@
 
 .footpar {
   margin-right: 15px;
+}
+
+.footbut {
+  color: white;
 }
