@@ -4,14 +4,14 @@
 }
 
 .navbartop {
-    background: #3f52fb;
+    background: white;
     display: flex;
     flex-direction: row;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 .name {
-  color: white;
+  color: black;
   margin-left: 20px;
 }
 
@@ -28,7 +28,7 @@
     color: white;
     padding: 0px;
     align-items: center;
-    background: radial-gradient(circle, rgba(251,63,63,1) 0%, rgba(252,0,0,1) 100%);
+    background: rgb(194, 0, 0);
     display: flex;
     flex-direction: row;
     font-family: Arial, Helvetica, sans-serif;
@@ -134,7 +134,7 @@
 
 .dtehead {
   padding-top: 10px;
-  color: #3f52fb;
+  color: navy;
   font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -176,7 +176,7 @@
 
 .geohead {
   padding-top: 10px;
-  color: #3f52fb;
+  color: navy;
   font-family: Arial, Helvetica, sans-serif;
 }
 

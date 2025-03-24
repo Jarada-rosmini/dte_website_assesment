@@ -4,14 +4,14 @@
 }
 
 .navbartop {
-    background: #3f52fb;
+    background: white;
     display: flex;
     flex-direction: row;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 .name {
-  color: white;
+  color: black;
   margin-left: 20px;
 }
 
@@ -28,7 +28,7 @@
     color: white;
     padding: 0px;
     align-items: center;
-    background: radial-gradient(circle, rgba(251,63,63,1) 0%, rgba(252,0,0,1) 100%);
+    background: rgb(194, 0, 0);
     display: flex;
     flex-direction: row;
     font-family: Arial, Helvetica, sans-serif;
@@ -226,7 +226,7 @@
   margin: 10px;
   margin-left: 0px;
   border-radius: 25px;
-  background-color: #3f52fb;
+  background-color: navy;
   height: 300px;
 }
 
@@ -253,7 +253,7 @@
   display: flex;
   flex-direction: column;
   border-radius: 5px;
-  background-color: #3f52fb;
+  background-color: navy;
 }
 
 .thing1 {
@@ -328,7 +328,7 @@
 
 .kamartit {
   margin-top: 100px;
-  color: #3f52fb;
+  color: navy;
   font-size: 50px;
 }
 
@@ -342,9 +342,14 @@
 }
 
 .kamarbut {
+  border-radius: 5px;
   color: white;
-  background-color: #3f52fb;
+  background-color: navy;
   width: 200px;
+}
+
+.kambut {
+  color: white;
 }
 
 .footer {
@@ -353,7 +358,7 @@
   justify-content: center;
   margin: 0;
   padding: 0;
-  background-color: #3f52fb;
+  background-color: navy;
 }
 
 .footinfo, .footcred, .footmap, .footpar {
