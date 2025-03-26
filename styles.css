@@ -38,7 +38,7 @@
     font-size: 30px;
     margin-left: 30px;
     padding: 0px;
-    color: white;
+    color: rgb(168, 168, 168);
 }
 
 .but {
@@ -354,11 +354,38 @@
 }
 
 .dne {
+  display: flex;
+  flex-direction: row;
   background-color: white;
 }
 
 .dn {
+  width: 500px;
   background-color: #F8F8F8;
+}
+
+.e {
+  text-align: center;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  color: red;
+}
+
+.date {
+  text-align: center;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+}
+
+.seeall {
+  margin-left: 40px;
+  color: red;
+}
+
+.in {
+  margin-left: 40px;
 }
 
 .footer {
