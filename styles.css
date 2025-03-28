@@ -354,14 +354,32 @@
 }
 
 .dne {
+  justify-content: center;
   display: flex;
   flex-direction: row;
   background-color: white;
+  margin-right: 20px;
+}
+
+.dnb {
+  background-color: white;
+  width: 800px;
+  margin-right: 20px;
 }
 
 .dn {
-  width: 500px;
+  width: 800px;
   background-color: #F8F8F8;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.events {
+  width: 560px;
+  background-color: #F8F8F8;
+  margin-left: 20px;
+  border-radius: 20px;
+  margin-bottom: 30px;
 }
 
 .e {
@@ -369,7 +387,8 @@
   align-items: center;
   display: flex;
   flex-direction: row;
-  color: red;
+  color: rgb(184, 30, 30);
+  margin-left: 10px;
 }
 
 .date {
@@ -377,11 +396,13 @@
   align-items: center;
   display: flex;
   flex-direction: row;
+  color: rgb(19, 19, 179);
+  margin-left: 10px;
 }
 
 .seeall {
   margin-left: 40px;
-  color: red;
+  color: rgb(184, 30, 30);
 }
 
 .in {
@@ -416,4 +437,12 @@
 
 .footbut {
   color: white;
+}
+
+.Massis-is-the-best-and-better-than-josh{
+  color: rgb(11, 46, 161);
+}
+
+.Massis-is-the-best-and-better-than-josh-with-a-lower-case-btw{
+  color: rgb(192, 32, 32);
 }
