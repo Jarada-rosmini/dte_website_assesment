@@ -368,6 +368,8 @@
 }
 
 .dn {
+  height: 330px;
+  margin-left: 30px;
   width: 800px;
   background-color: #F8F8F8;
   padding: 20px;
@@ -375,9 +377,10 @@
 }
 
 .events {
-  width: 560px;
+  height: 330px;
+  width: 675px;
   background-color: #F8F8F8;
-  margin-left: 20px;
+  margin-left: 25px;
   border-radius: 20px;
   margin-bottom: 30px;
 }
@@ -401,12 +404,12 @@
 }
 
 .seeall {
-  margin-left: 40px;
+  margin-left: 420px;
   color: rgb(184, 30, 30);
 }
 
 .in {
-  margin-left: 40px;
+  margin-left: 400px;
 }
 
 .footer {
@@ -445,4 +448,8 @@
 
 .Massis-is-the-best-and-better-than-josh-with-a-lower-case-btw{
   color: rgb(192, 32, 32);
+}
+
+.eve {
+  background-color: white;
 }
