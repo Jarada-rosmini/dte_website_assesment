@@ -306,3 +306,59 @@ margin: 0;
 .footbut {
   color: white;
 }
+
+.sportlink {
+  color: white;
+}
+
+.dircon {
+  background-color: white;
+  justify-content: center;
+}
+
+.director {
+  margin-top: 20px;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  border-radius: 10px;
+  margin-left: 200px;
+  width: 1500px;
+  background-color: #F8F8F8;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.dirtit {
+  color: navy;
+}
+
+.dirbit {
+  font-size: 20px;
+}
+
+.dirtext {
+  margin-left: 10px;
+  margin-right: 200px;
+  width: 800px
+}
+
+.dirimg {
+  border-radius: 10px;
+  width: 500px;
+  height: auto;
+}
+
+.moresport {
+  border-radius: 10px;
+  padding: 5px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  background-color: rgb(62, 62, 179);
+}
+
+.morelink {
+  color: white;
+  font-size: 20px;
+  margin-top: 5px;
+}
